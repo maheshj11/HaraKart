@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HaraKart</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="customcss/custom1.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Logo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="our-story.html">&nbsp;&nbsp;&nbsp;Our Story</a></li>
+                    <li><a href="model.html">&nbsp;&nbsp;&nbsp;Model</a></li>
+                    <li><a href="team.html">&nbsp;&nbsp;&nbsp;Team</a></li>
+                  </ul>
+                </li>
+                
+                <li><a href="learn.html">Learn</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="store.html">Store <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">&nbsp;&nbsp;&nbsp;Fruits</a></li>
+                    <li><a href="#">&nbsp;&nbsp;&nbsp;Vegetables</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div><!-- End Container-fluid -->
+      </nav><!--End Navbar -->
+    
+       <!-- Full Page Image Background Carousel Header -->
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/tomato.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/fruits-2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/strawberry.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </div>
+   
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Company<span>logo</span></h3>
+
+        <p class="footer-company-name">HaraKart &copy; 2016</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>21 Street,Powai</span> Mumbai,India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 555 123456</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@harakart.com">support@harakart.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>Get In Touch</span>
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="jquery-3.1.1.min.js"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+     <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+  </body>
+</html>
