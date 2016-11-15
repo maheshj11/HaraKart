@@ -304,8 +304,8 @@ footer{
 /*coming soon*/
 
 /* wrapper */
-
 #wrapper {
+	text-align: center;
 	background: url(../images/ballon.jpg) no-repeat center center;
 	position: relative;
 	width: 100%;
@@ -315,9 +315,17 @@ footer{
 
 h2.subtitle {
 	position: absolute;
-	top: 200px;
-	left: 500px;
-	width: 100%;
+    top: 33%;
+    left: 33%;
 	color: #fff;
 	font-size: 24px;
+}
+@media (max-width: 880px)
+{
+	h2.subtitle
+	{
+		top: 40%;
+		left: 20%;
+	   font-size:20px;
+	}
 }
