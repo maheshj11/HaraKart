@@ -1,4 +1,6 @@
-html,body 
+@import url('https://fonts.googleapis.com/css?family=Cookie|Arvo|Inconsolata');
+
+html,body
 {
         height:100%;
 }
@@ -19,13 +21,15 @@ html,body
     padding-left: 55px;
     line-height: 100px;
 }
-.navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 30px;
     padding-right: 30px;
     line-height: 100px;
     font-size: 18px;
+    color: white;
+    font-family: 'Arvo',serif;
 }
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus
@@ -49,10 +53,10 @@ html,body
 	 background-color: #2c2d2d;
 	 min-height: 60px;
     }
-    .navbar-nav > li > a 
+    .navbar-inverse .navbar-nav > li > a
     {
     border-bottom: 1px solid #434444;
-    line-height: 20px;
+    line-height: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
     }
@@ -74,6 +78,7 @@ html,body
 
 .dropdown-menu>li>a
 {
+	font-family: 'Arvo',serif;
 	color:white;
 }
 
@@ -266,7 +271,22 @@ footer{
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
+.footer-distributed .footer-icons .icoFacebook{
+	border-radius: 5px;
+    background-color: #3B5998;
+}
+.footer-distributed .footer-icons .icoTwitter{
+	border-radius: 5px;
+    background-color: #33ccff;
+}
+.footer-distributed .footer-icons .icoLinkedin{
+	border-radius: 5px;
+    background-color: #007bb7;
+}
+.footer-distributed .footer-icons a:hover
+{
+	box-shadow: 0px 0px 8px black;
+}
 /* Responsive Footer*/
 
 @media (max-width: 880px) {
